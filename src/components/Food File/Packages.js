@@ -4,7 +4,7 @@ import food2 from "../../assets/Food/Food2.jpg";
 import food3 from "../../assets/Food/Food3.jpeg";
 import food4 from "../../assets/Food/Food4.jpg";
 
-function Packages() {
+function Food() {
   return (
     <div style={{ margin: "6rem 7.2rem" }} className="container ">
       <div className="row row-cols-2 ">
@@ -513,4 +513,4 @@ function Packages() {
   );
 }
 
-export default Packages;
+export default Food;
