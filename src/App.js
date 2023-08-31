@@ -6,7 +6,7 @@ import "./App.css";
 import PlaceToVisit from "./components/places/PlaceToVisit";
 import Home from "./components/Home";
 import TimeToVisit from "./components/place1/TimeToVisit";
-import Food from "./components/Food File/Packages";
+import Food from "./components/Food File/Food";
 
 const App = () => {
   return (
