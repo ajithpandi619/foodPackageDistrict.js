@@ -6,7 +6,7 @@ import "./App.css";
 import PlaceToVisit from "./components/places/PlaceToVisit";
 import Home from "./components/Home";
 import TimeToVisit from "./components/place1/TimeToVisit";
-import Packages from "./components/Food File/Packages";
+import Food from "./components/Food File/Packages";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Place" element={<PlaceToVisit />} />
         <Route path="/Time" element={<TimeToVisit />} />
-        <Route path="/Food" element={<Packages />} />
+        <Route path="/Food" element={<Food />} />
       </Routes>
     </BrowserRouter>
   );
